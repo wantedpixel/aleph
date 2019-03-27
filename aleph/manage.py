@@ -192,6 +192,14 @@ def rdf(foreign_id):
 
 
 @manager.command
+def test():
+    from aleph.logic.names import get_composite_frequency
+    print(get_composite_frequency("Friedrich Lindenberg"))
+    print(get_composite_frequency("ENRON"))
+    print(get_composite_frequency("ENRON"))
+
+
+@manager.command
 def upgrade():
     """Create or upgrade the search index and database."""
     upgrade_system()

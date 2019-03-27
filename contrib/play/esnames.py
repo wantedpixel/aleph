@@ -18,7 +18,7 @@ def name_tokens(name):
 
 def get_entities():
     params = {
-        'include': ['names', 'countries', 'schema'],
+        'include': ['names', 'countries', 'schema', 'properties.gender'],
         'schema': ['Thing'],
         'api_key': os.environ.get('ALEPH_API_KEY')
     }
