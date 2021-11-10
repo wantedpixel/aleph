@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:17-alpine
 
 RUN mkdir /alephui
 WORKDIR /alephui
