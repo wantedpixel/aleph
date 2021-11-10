@@ -1,6 +1,6 @@
 
 # Dependencies maintained by OCCRP
-banal==0.4.2
+banal==1.0.4
 urlnormalizer==1.2.5
 followthemoney==1.21.5
 fingerprints==0.6.6
