@@ -77,7 +77,7 @@
     "redux-logger": "^3.0.6",
     "resolve": "^1.10.0",
     "sass-loader": "^8.0.0",
-    "style-loader": "1.0.0",
+    "style-loader": "2.0.0",
     "terser-webpack-plugin": "^2.1.2",
     "typescript": "^3.6.3",
     "url-loader": "2.2.0",
