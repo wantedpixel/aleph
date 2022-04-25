@@ -1,4 +1,4 @@
-FROM ubuntu:19.10
+FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get -qq -y update \
