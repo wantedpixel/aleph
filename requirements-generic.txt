@@ -15,7 +15,7 @@ alembic==1.2.1
 elasticsearch==7.0.5
 marshmallow==2.19.2
 gunicorn==19.9.0
-blinker==1.4
+blinker==1.5
 Babel==2.7.0
 PyYAML==5.1.2
 pyjwt==1.7.1
